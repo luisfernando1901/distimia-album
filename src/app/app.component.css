@@ -1,0 +1,27 @@
+.player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100hw;
+    background-color: #000000f1;
+}
+
+.img_cover{
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.wrapper ::ng-deep comp-child {
+    align-items: center;
+    background: rgba(0, 34, 0, 0.466) !important;
+    border-radius: 15px;
+    display: flex;
+    font-family: Raleway,sans-serif;
+    height: 130px;
+    width: 40px !important;
+}
